@@ -1,0 +1,195 @@
+/* ---------------------fonts---------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* ----------------------common styles or utilities--------------------- */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* ----------------------------------Top articel Section---------------------------------- */
+.top-articel {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 33px 79px 0px 106px;
+    background: #161616;
+    border-radius: 30px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    /* max-width: 1136px; */
+    /* margin: 50px 139px 0px 140px; */
+}
+
+.top-articel-title {
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.top-articel-info p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.top-articel-info a {
+    text-decoration: none;
+    padding: 16px 25px;
+    color: #FFFFFF;
+    background: #DD0000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#arrow-head {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top-articel-image {
+    width: 581px;
+    height: 613px;
+}
+
+.top-image {
+    width: 581px;
+    height: 613px;
+}
+
+/* ----------------------------------Information Section---------------------------------- */
+.information {
+    margin-top: 130px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+
+.nav-options {
+    width: 252px;
+    height: 252px;
+    background: #161616;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.option {
+    width: 252px;
+    height: 64px;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+}
+
+.all-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 22px;
+    grid-column-gap: 22px;
+}
+
+.blog {
+    width: 312px;
+    border: 1px solid black;
+}
+
+.blog-image {
+    width: 312px;
+    height: 175px;
+}
+
+.individual-blog-image {
+    width: 312px;
+    height: 175px;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.transfer-button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+}
+
+.blog-info p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.blog-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.blog-icons p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+/* ----------------------------------Footer Section---------------------------------- */
+footer {
+    margin: 0;
+    background: #161616;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    padding: 130px 0px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-info h4 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.social-media {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.fa-brands {
+    display: block;
+}
