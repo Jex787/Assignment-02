@@ -135,6 +135,8 @@ body {
 .blog-info p {
     margin-top: 20px;
     margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .blog-icons {
@@ -162,6 +164,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     padding: 130px 0px;
+    width: auto;
 }
 
 .footer-title {
@@ -202,6 +205,7 @@ footer hr {
     justify-content: center;
 }
 
-.fa-brands {
-    display: block;
+.social-media a {
+    text-decoration: none;
+    color: #B9B9B9;
 }

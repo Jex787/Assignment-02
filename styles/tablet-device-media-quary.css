@@ -1,0 +1,121 @@
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---Tablet Device---xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (min-width: 689px) and (max-width:991px) {
+
+    /* ----------------------------------Top articel Section---------------------------------- */
+    .top-articel {
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 58px 17px 0px 76px;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .top-articel-title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+
+    .top-articel-info p {
+        font-size: 14px;
+        width: 316px;
+        height: 48px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .top-articel-image {
+        width: 323px;
+        height: 340px;
+    }
+
+    .top-image {
+        width: 323px;
+        height: 340px;
+    }
+
+    /* ----------------------------------Information Section---------------------------------- */
+    .information {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .nav-options {
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 22px;
+        margin-bottom: 30px;
+        width: auto;
+        height: auto;
+        padding: 0;
+        background: #FFFFFF;
+    }
+
+    .option {
+        width: 228px;
+        height: 47px;
+        border: 1px solid black;
+    }
+
+    .all-blog {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        justify-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    }
+
+    .blog {
+        width: 357px;
+    }
+
+    .blog-image {
+        width: 357px;
+    }
+
+    .individual-blog-image {
+        width: 357px;
+    }
+
+    .blog-info p {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .view-button {
+        display: contents;
+    }
+
+    .view-button a {
+        width: 73px;
+        height: 23px;
+        background: #DD0000;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 12px 29px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    /* ------------------------------------Footer Section------------------------------------ */
+    footer {
+        padding: 70px 0px 55px 0px;
+    }
+
+    .footer-info {
+        flex-wrap: wrap;
+        gap: 58px;
+        row-gap: 0px;
+    }
+
+    .footer-info h4 {
+        margin-top: 30px;
+    }
+}
