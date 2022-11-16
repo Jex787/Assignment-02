@@ -1,0 +1,100 @@
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx---Mobile Device---xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+@media only screen and (max-width:688px) {
+
+    /* ----------------------------------Top articel Section---------------------------------- */
+    .top-articel {
+        flex-direction: column;
+        gap: 21px;
+        padding: 28px 38px 0px 38px;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .top-articel-info {
+        text-align: center;
+    }
+
+    .top-articel-title {
+        font-size: 22px;
+        margin-bottom: 8px;
+    }
+
+    .top-articel-info p {
+        font-size: 14px;
+        height: 48px;
+        overflow: scroll;
+        text-overflow: ellipsis;
+        margin-bottom: 24px;
+    }
+
+    .top-articel-info a {
+        padding: 8px 12px;
+    }
+
+    .top-articel-image {
+        width: 233px;
+        height: 245px;
+    }
+
+    .top-image {
+        width: 233px;
+        height: 245px;
+    }
+
+    /* ----------------------------------Information Section---------------------------------- */
+    .information {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .nav-options {
+        justify-content: space-evenly;
+        gap: 13px;
+        margin-bottom: 0px;
+        width: 210px;
+        height: 176px;
+        padding: 0;
+        background: #FFFFFF;
+    }
+
+    .option {
+        width: auto;
+        height: 48px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border: 1px solid black;
+    }
+
+    .all-blog {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* ------------------------------------Footer Section------------------------------------ */
+    footer {
+        padding: 24px 0px;
+    }
+
+    .footer-info {
+        gap: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-title {
+        margin-bottom: 24px;
+        font-size: 22px;
+    }
+
+    .footer-info h4 {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 35px;
+    }
+
+    .social-media {
+        margin-top: 35px;
+    }
+}
