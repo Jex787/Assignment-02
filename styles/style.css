@@ -99,6 +99,11 @@ body {
     color: #FFFFFF;
 }
 
+#op-1 {
+    background: #DD0000;
+    color: #FFFFFF;
+}
+
 .all-blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -151,6 +156,35 @@ body {
 
 .icon {
     margin-right: 10px;
+}
+
+.matches {
+    width: 312px;
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 140px;
+    padding: 5% 0%;
+}
+
+.match-image {
+    display: flex;
+    justify-content: center;
+    /* width: 252px; */
+    height: 56px;
+    gap: 21px;
+}
+
+.match-info {
+    text-align: center;
+}
+
+.match-info h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.match-info p {
+    margin: 0;
 }
 
 .view-button {
